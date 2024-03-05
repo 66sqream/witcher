@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>login</title>
+    <bgsound src="./song/Percival-Schuttenbach-The-Musty-Scent-of-Fresh-Pâté.wav">
+        <style>
+            input::-webkit-input-placeholder {
+                color: rgb(126, 22, 22);
+            }
+            
+            .popupBg.active {
+                opacity: 1;
+                pointer-events: all;
+                transition: 0.5s all;
+            }
+            
+            .signUpBg.active {
+                opacity: 1;
+                pointer-events: all;
+                transition: 0.5s all;
+            }
+        </style>
+
+</head>
+
+<body>
+
+    <div class="selection">
+        <button class="openPopup"><img src="./img/eur5zQDooSw-PhotoRoom (1).png" alt=""></button>
+    </div>
+    <div class="popupBg">
+        <div class="popup">
+            <form method="post" action="#" class="logIn">
+                <div class="data">
+                    <input type="email" class="log" placeholder="E-mail">
+                    <input type="password" placeholder="Password">
+                </div>
+                <div class="buttons">
+                    <button class="butlogIn" type="submit">Log In</button>
+                    <p class="butSignUp ">Sign Up</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="signUpBg ">
+        <div class="signUpPop ">
+            <form method="post " action="# " class="SignUp ">
+                <div class="data ">
+                    <input type="tex " class="FirstName " placeholder="First name ">
+                    <input type="tex " class="LastName " placeholder="Last name ">
+                    <input type="email " class="log " placeholder="E-mail ">
+                    <input type="password " placeholder="Password ">
+                </div>
+                <div class="buttons ">
+                    <button class="butSignUp">Sign Up</button>
+                    <p class="butLogIn">Log In</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./script/main.js "></script>
+</body>
+
+</html>
